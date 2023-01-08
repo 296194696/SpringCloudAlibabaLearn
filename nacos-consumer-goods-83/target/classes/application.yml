@@ -1,0 +1,20 @@
+server:
+  port: 83
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+spring:
+  application:
+    name: consumer-goods
+  cloud:
+    nacos:
+      discovery:
+        server‐addr: localhost:8848
+
+service-url:
+   nacos-service-good: http://service-goods
+
