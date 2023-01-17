@@ -13,6 +13,7 @@
     <module>nacos-service-goods-8002</module>
     <module>nacos-consumer-goods-83</module>
       <module>nacos-service-config</module>
+    <module>sentinel-service-good-8011</module>
   </modules>
 
   <!-- 统一管理jar包版本 -->
